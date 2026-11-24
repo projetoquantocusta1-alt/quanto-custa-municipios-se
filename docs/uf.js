@@ -20,7 +20,7 @@ const MAIN_UF = "<main>\n    <section class=\"pagina\" data-pag=\"inicio\">\n   
   const velho = document.querySelector("main");
   if (velho) velho.outerHTML = MAIN_UF;
   const css = document.createElement("link"); css.rel = "stylesheet"; css.href = AQUI + "uf.css?v=4"; document.head.appendChild(css);
-  document.title = `Projeto Quanto Custa — Prefeituras e câmaras ${CFG.DO_ESTADO}`;
+  document.title = `Prefeituras e câmaras ${CFG.DO_ESTADO} — Quanto Custa`;
   document.querySelectorAll(".marca-sub, .topo-marca small").forEach(e => (e.textContent = "Prefeitos e vereadores · " + CFG.UF));
   document.querySelectorAll('.menu nav button[data-pag="prefeitos"]').forEach(b => (b.hidden = true));
   const rod = document.querySelector(".rodape");
