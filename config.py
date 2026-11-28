@@ -1,4 +1,4 @@
-"""Projeto Quanto Custa — Prefeituras e câmaras de um estado pelo SICONFI (configuração).
+"""Quanto Custa — Prefeituras e câmaras de um estado pelo SICONFI (configuração).
 
 Fonte das despesas: SICONFI (Tesouro Nacional), RREO Anexo 02. O mesmo código serve para qualquer estado: só o
 bloco "ESTADO" abaixo muda de um repositório para outro (e o bloco CFG no começo de docs/uf.js).
